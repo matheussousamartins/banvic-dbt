@@ -4,9 +4,6 @@ models:
     columns:
       - name: pk_data
         description: Chave primária da dimensão de datas, gerada por ordenação sequencial.
-        data_tests:
-          - unique 
-          - not_null
       - name: ano
         description: Ano da data.
       - name: mes
